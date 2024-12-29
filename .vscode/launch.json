@@ -1,0 +1,39 @@
+r{
+    // Pro informace o možných atributech použijte technologii IntelliSense.
+    // Umístěním ukazatele myši zobrazíte popisy existujících atributů.
+    // Další informace najdete tady: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "version": "0.2.0",
+            "configurations": [],
+            "compounds": []
+        }
+
+        root.txt$
+        {
+            "version": "0.2.0",
+            "configurations": [],
+            "compounds": []
+        }
+        {
+            "version": "0.2.0",
+            "configurations": [],
+            "compounds": []
+        }
+        {
+            "type": "cobol",
+            "request": "launch",
+            "name": "COBOL (native): Launch",
+            "program": "${workspaceFolder}/<insert-program-name-here>",
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": true
+        },
+        {
+            "type": "cobol",
+            "request": "attach",
+            "name": "COBOL (native): Attach to process",
+            "processId": "${command:pickProcess}"
+        }
+    ]
+}
