@@ -1,0 +1,58 @@
+{
+    // Pro informace o možných atributech použijte technologii IntelliSense.
+    // Umístěním ukazatele myši zobrazíte popisy existujících atributů.
+    // Další informace najdete tady: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "name": "Embedded Debug",
+        "type": "embedded-debug",
+        "request": "launch",
+        "serialNumber": "<serial number of your device>",
+        "program": "${command:embedded-debug.getApplicationFile}",
+        "cmsisPack": "<path or URL of CMSIS Pack for your device>"
+    },
+    {
+        "name": "Embedded Debug",
+        "type": "embedded-debug",
+        "request": "launch",
+        "serialNumber": "<serial number of your device>",
+        "program": "${command:embedded-debug.getApplicationFile}",
+        "cmsisPack": "<path or URL of CMSIS Pack for your device>"
+    },
+
+    {
+        "name": "Embedded Debug",
+        "type": "embedded-debug",
+        "request": "launch",
+        "serialNumber": "<serial number of your device>",
+        "program": "${command:embedded-debug.getApplicationFile}",
+        "cmsisPack": "<path or URL of CMSIS Pack for your device>"
+    },
+    {
+        "name": "Embedded Debug",
+        "type": "embedded-debug",
+        "request": "launch",
+        "serialNumber": "<serial number of your device>",
+        "program": "${command:embedded-debug.getApplicationFile}",
+        "cmsisPack": "<path or URL of CMSIS Pack for your device>"
+    },
+    {
+        "name": "Embedded Debug",
+        "type": "embedded-debug",
+        "request": "launch",
+        "serialNumber": "<serial number of your device>",
+        "program": "${command:embedded-debug.getApplicationFile}",
+        "cmsisPack": "<path or URL of CMSIS Pack for your device>"
+    },
+
+
+        {
+            "type": "mock",
+            "request": "launch",
+            "name": "Ask for file name",
+            "program": "${workspaceFolder}/${command:AskForProgramName}",
+            "stopOnEntry": true
+        }
+    ]
+}
